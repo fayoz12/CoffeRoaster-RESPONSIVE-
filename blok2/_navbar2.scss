@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_logo {
+    width: 220px;
+  }
+
+  &_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  &_link {
+    /* Create your plan */
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+
+    &:hover {
+      transition: all 0.3 linear;
+      color: #333d4b;
+    }
+  }
+
+  .navbar_burger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+
+    .navbar_hr {
+      width: 25px;
+      border: 1.3px solid black;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    .navbar_list {
+      display: none;
+    }
+
+    .navbar_burger {
+      display: flex;
+    }
+  }
+}

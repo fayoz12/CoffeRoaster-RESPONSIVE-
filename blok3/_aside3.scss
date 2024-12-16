@@ -1,0 +1,110 @@
+.timeline2 {
+  width: 100%;
+  min-height: 400px;
+  padding: 80px 50px;
+  background-color: #293039;
+  margin-top: 250px;
+  border-radius: 2px;
+
+  .timeline_top2 {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+  }
+
+  .timeline_top2 span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: 3px solid green;
+  }
+
+  .timeline_top2 hr {
+    width: 200px;
+    border: none;
+    background-color: white;
+    border: 2px solid #fdd6ba;
+  }
+
+  .timeline_bottom2 {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .timeline_title2 {
+    /* 01 */
+
+    font-family: "Fraunces ";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+
+    color: #fdd6ba;
+  }
+
+  .timeline_text2 {
+    /* Select from our evol */
+    width: 300px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: white;
+  }
+
+  .timeline_subtitle2 {
+    /* Pick your coffee */
+    width: 255px;
+
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    color: white;
+  }
+
+  .timeline_card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline2 {
+    width: 100%;
+    min-height: 300px;
+    padding: 40px 25px;
+
+    .timeline_top2 {
+      display: none;
+    }
+
+    .timeline_bottom2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .timeline_subtitle2 {
+      width: 100%;
+    }
+
+    .timeline_text2 {
+      width: 100%;
+    }
+  }
+}

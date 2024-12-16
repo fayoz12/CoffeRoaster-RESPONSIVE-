@@ -1,0 +1,79 @@
+.subfooter {
+  width: 730px;
+  margin: auto;
+  background-color: #293039;
+
+  .sub_text {
+    /* Order Summary */
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 25px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  .subtitle {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 25px;
+    line-height: 40px;
+    /* or 167% */
+
+    color: #ffffff;
+  }
+
+  .footer_sp1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+    color: #0e8684;
+  }
+
+  .footer_btn {
+    /* Create my plan! */
+
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    text-align: center;
+
+    color: #fefcf7;
+
+    border: none;
+    margin-left: 510px;
+    width: 217px;
+    height: 56px;
+
+    background: #66d2cf;
+    border-radius: 6px;
+  }
+}
+
+
+
+
+@media (max-width: 480px) {
+  .subfooter {
+    width: 100%;
+    height: 338px;
+    margin:  auto;
+  }
+}

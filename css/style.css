@@ -1,0 +1,1339 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
+.intro {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("../img/Bitmap (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.intro_title {
+  /* Great coffee made si */
+  width: 550px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+}
+.intro_text {
+  /* Start your mornings */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  width: 500px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro_btn {
+  width: 217px;
+  height: 56px;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+}
+
+@media (max-width: 480px) {
+  .intro .intro_title {
+    /* Great coffee made si */
+    width: 100%;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .intro .intro_text {
+    width: 100%;
+    text-align: center;
+  }
+  .intro .intro_btn {
+    margin-left: 50px;
+  }
+}
+.timeline {
+  width: 100%;
+  min-height: 400px;
+  padding: 80px 50px;
+  margin-top: 250px;
+  border-radius: 2px;
+}
+.timeline .timeline_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.timeline .timeline_top span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: inherit;
+  border: 3px solid green;
+}
+.timeline .timeline_top hr {
+  width: 200px;
+  border: none;
+  background-color: white;
+  border: 2px solid #fdd6ba;
+}
+.timeline .timeline_bottom {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  gap: 50px;
+}
+.timeline .timeline_title {
+  /* 01 */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #fdd6ba;
+}
+.timeline .timeline_text {
+  /* Select from our evol */
+  width: 300px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: white;
+}
+.timeline .timeline_subtitle {
+  /* Pick your coffee */
+  width: 255px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: white;
+}
+.timeline .timeline_card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 480px) {
+  .timeline {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 1000px;
+    padding: 40px 25px;
+  }
+  .timeline .timeline_top {
+    display: none;
+  }
+  .timeline .timeline_bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .timeline .timeline_subtitle {
+    width: 100%;
+  }
+  .timeline .timeline_text {
+    width: 100%;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_logo {
+  width: 220px;
+}
+.navbar_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.navbar_link {
+  /* Create your plan */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.navbar_link:hover {
+  transition: all 0.3 linear;
+  color: #333d4b;
+}
+.navbar .navbar_burger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
+}
+.navbar .navbar_burger .navbar_hr {
+  width: 25px;
+  border: 1.3px solid black;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar .navbar_list {
+    display: none;
+  }
+  .navbar .navbar_burger {
+    display: flex;
+  }
+}
+.choose {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+  background-color: #2c343e;
+}
+.choose .choose_title {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: "Fraunces";
+}
+.choose .choose_text {
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+  color: white;
+  font-family: "Barlow";
+}
+.choose .choose_cards {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.choose .choose_card {
+  width: 300px;
+  height: 350px;
+  background-color: #119884;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.choose .choose_subtitle {
+  /* Best quality */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #fefcf7;
+}
+.choose .choose_subtext {
+  /* Discover an endless */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #fefcf7;
+}
+@media (max-width: 480px) {
+  .choose .choose {
+    padding: 20px;
+    height: 800px;
+  }
+  .choose .choose_text {
+    width: 100%;
+    text-align: start;
+  }
+  .choose .choose_cards {
+    flex-direction: column;
+    left: 0;
+  }
+  .choose .choose_card {
+    width: 85%;
+  }
+}
+
+.main_glav_right_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.main_img_box {
+  width: 1111px;
+  height: 196px;
+  background-image: url("./img/main.bck.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_box {
+  display: flex;
+}
+
+.main_box1 {
+  display: flex;
+  gap: 50px;
+}
+
+.main_blok1 {
+  padding-right: 50px;
+}
+
+.main_kopi {
+  width: 255px;
+  height: 193px;
+  margin-top: 210px;
+}
+
+.main_blok1_title {
+  width: 255px;
+  height: 32px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333d4b;
+}
+
+.main_blok1_text {
+  width: 255px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #333d4b;
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+  }
+  .main .main_box {
+    flex-direction: column;
+    margin-left: 60px;
+  }
+  .main .main_box1 {
+    flex-direction: column;
+  }
+  .main .main_img_box {
+    width: 100%;
+  }
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c343e;
+  height: 120px;
+  margin-top: 510px;
+}
+.footer_logo {
+  width: 220px;
+  margin-left: 120px;
+}
+.footer_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 120px;
+}
+.footer .footer_glav_box {
+  display: flex;
+  gap: 120px;
+}
+.footer .footer_last_icon {
+  width: 120px;
+  height: 24px;
+}
+.footer_link {
+  /* Create your plan */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.footer_link:hover {
+  transition: all 0.3 linear;
+  color: white;
+}
+.footer .footer_img {
+  width: 236px;
+  height: 26px;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    width: 100%;
+    height: 346px;
+    margin-top: 2200px;
+  }
+  .footer .footer_img {
+    position: absolute;
+    margin-top: 90px;
+    width: 217.85px;
+    height: 24px;
+    margin-left: 100px;
+  }
+  .footer .footer_list {
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 135px;
+  }
+  .footer .footer_glav_box {
+    flex-direction: column;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
+.intro {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("../img/intro_Wrapper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.intro_title {
+  /* Great coffee made si */
+  width: 550px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+}
+.intro_text {
+  /* Start your mornings */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  width: 500px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .intro .intro_title {
+    /* Great coffee made si */
+    width: 100%;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .intro .intro_text {
+    width: 100%;
+    text-align: center;
+  }
+  .intro .intro_btn {
+    margin-left: 50px;
+  }
+}
+.aside {
+  width: 1045px;
+  height: 366px;
+  margin: auto;
+}
+.aside .asd_title {
+  /* Our headquarters */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888f;
+}
+.aside .asd_subtitle {
+  /* United Kingdom */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #333d4b;
+}
+.aside .asd_text {
+  /* 1528 Eglinton Avenue */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+}
+.aside .asd_blok {
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 480px) {
+  .aside {
+    width: 100%;
+    height: 1044px;
+  }
+  .aside .asd_blok {
+    flex-direction: column;
+  }
+  .aside .asd_left {
+    margin-left: 120px;
+    margin: auto;
+  }
+  .aside .asd_box {
+    margin-top: 50px;
+    margin-right: 120px;
+  }
+  .aside .asd_box1 {
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  .aside .asd_text {
+    padding: 5px;
+  }
+  .aside .asd_subtitle {
+    padding: 10px;
+  }
+  .aside .asd_title {
+    margin-left: 120px;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_logo {
+  width: 220px;
+}
+.navbar_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.navbar_link {
+  /* Create your plan */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.navbar_link:hover {
+  transition: all 0.3 linear;
+  color: #333d4b;
+}
+.navbar .navbar_burger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
+}
+.navbar .navbar_burger .navbar_hr {
+  width: 25px;
+  border: 1.3px solid black;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar .navbar_list {
+    display: none;
+  }
+  .navbar .navbar_burger {
+    display: flex;
+  }
+}
+.choose2 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+}
+.choose2 .choose2_title {
+  /* Our commitment */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  padding: 25px;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #333d4b;
+}
+.choose2 .choose2_text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 25px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.choose2 .choose2_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+@media (max-width: 480px) {
+  .choose2 .choose2 {
+    padding: 20px;
+    height: 800px;
+  }
+  .choose2 .choose2 .choose2_text {
+    width: 100%;
+    text-align: start;
+  }
+  .choose2 .choose2_box {
+    flex-direction: column;
+  }
+  .choose2 .choose2_title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    padding: 25px;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    color: #333d4b;
+  }
+}
+
+.footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c343e;
+  height: 120px;
+}
+.footer2 .footer_list2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 120px;
+}
+.footer2 .footer_glav_box2 {
+  display: flex;
+  gap: 120px;
+}
+.footer2 .footer_last_icon2 {
+  width: 120px;
+  height: 24px;
+}
+.footer2 .footer_link2 {
+  /* Create your plan */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.footer2 .footer_link2:hover {
+  transition: all 0.3 linear;
+  color: white;
+}
+.footer2 .footer_img2 {
+  width: 236px;
+  height: 26px;
+}
+
+@media (max-width: 480px) {
+  .footer2 {
+    width: 100%;
+    height: 346px;
+  }
+  .footer2 .footer_img2 {
+    position: absolute;
+    margin-top: 90px;
+    width: 217.85px;
+    height: 24px;
+    margin-left: 100px;
+  }
+  .footer2 .footer_list2 {
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 135px;
+  }
+  .footer2 .footer_glav_box2 {
+    flex-direction: column;
+  }
+}
+.header {
+  width: 1280px;
+  height: 474px;
+  margin-top: 150px;
+  background-color: #293039;
+}
+.header .header_title {
+  /* Uncompromising quali */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #fefcf7;
+}
+.header .header_text {
+  /* Although we work wit */
+  width: 540px;
+  height: 130px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.header .header_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+    margin-top: 900px;
+    height: 509px;
+    background-color: #293039;
+  }
+  .header .header_box {
+    flex-direction: column;
+  }
+  .header .header_img {
+    display: none;
+  }
+  .header .header_title {
+    /* Uncompromising quali */
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    padding: 25px;
+    line-height: 28px;
+    /* or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .header .header_text {
+    /* Although we work wit */
+    width: 279px;
+    font-family: "Barlow";
+    padding: 25px;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_logo {
+  width: 220px;
+}
+.navbar_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.navbar_link {
+  /* Create your plan */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.navbar_link:hover {
+  transition: all 0.3 linear;
+  color: #333d4b;
+}
+.navbar .navbar_burger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
+}
+.navbar .navbar_burger .navbar_hr {
+  width: 25px;
+  border: 1.3px solid black;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar .navbar_list {
+    display: none;
+  }
+  .navbar .navbar_burger {
+    display: flex;
+  }
+}
+.intro {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("../img/wrapper3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.intro_title {
+  /* Great coffee made si */
+  width: 550px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+}
+.intro_text {
+  /* Start your mornings */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  width: 500px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.intro_btn {
+  width: 217px;
+  height: 56px;
+  background: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+}
+
+@media (max-width: 480px) {
+  .intro .intro_title {
+    /* Great coffee made si */
+    width: 100%;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .intro .intro_text {
+    width: 100%;
+    text-align: center;
+  }
+  .intro .intro_btn {
+    margin-left: 50px;
+  }
+}
+.timeline2 {
+  width: 100%;
+  min-height: 400px;
+  padding: 80px 50px;
+  background-color: #293039;
+  margin-top: 250px;
+  border-radius: 2px;
+}
+.timeline2 .timeline_top2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.timeline2 .timeline_top2 span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: inherit;
+  border: 3px solid green;
+}
+.timeline2 .timeline_top2 hr {
+  width: 200px;
+  border: none;
+  background-color: white;
+  border: 2px solid #fdd6ba;
+}
+.timeline2 .timeline_bottom2 {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  gap: 50px;
+}
+.timeline2 .timeline_title2 {
+  /* 01 */
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #fdd6ba;
+}
+.timeline2 .timeline_text2 {
+  /* Select from our evol */
+  width: 300px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: white;
+}
+.timeline2 .timeline_subtitle2 {
+  /* Pick your coffee */
+  width: 255px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: white;
+}
+.timeline2 .timeline_card2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 480px) {
+  .timeline2 {
+    width: 100%;
+    min-height: 300px;
+    padding: 40px 25px;
+  }
+  .timeline2 .timeline_top2 {
+    display: none;
+  }
+  .timeline2 .timeline_bottom2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .timeline2 .timeline_subtitle2 {
+    width: 100%;
+  }
+  .timeline2 .timeline_text2 {
+    width: 100%;
+  }
+}
+.main {
+  width: 1200px;
+  margin: auto;
+}
+.main .main_title {
+  font-family: "Fraunces";
+  margin-left: 120px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888f;
+}
+.main .card {
+  width: 228px;
+  height: 250px;
+  background: #f4f1eb;
+  border-radius: 8px;
+}
+.main .card2 {
+  /* Rectangle */
+  width: 228px;
+  height: 250px;
+  background: #0e8784;
+  border-radius: 8px;
+}
+.main .glav_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 120px auto;
+}
+.main .card_title {
+  /* Single Origin */
+  font-family: "Fraunces";
+  font-style: normal;
+  margin-left: 60px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333d4b;
+}
+.main .card_text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  padding: 25px;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+}
+.main .card_title2 {
+  /* Filter */
+  font-family: "Fraunces ";
+  font-style: normal;
+  margin-left: 60px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #ffffff;
+}
+.main .card3 {
+  width: 228px;
+  height: 250px;
+  background: #f4f1eb;
+  border-radius: 8px;
+}
+.main .card3:active {
+  background-color: #fdd6ba;
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+  }
+  .main .main_card {
+    width: 328px;
+    height: 452px;
+  }
+  .main .glav_card {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .main .main_title {
+    width: 240px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 28px;
+    /* or 117% */
+    color: #83888f;
+  }
+}
+.subfooter {
+  width: 730px;
+  margin: auto;
+  background-color: #293039;
+}
+.subfooter .sub_text {
+  /* Order Summary */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 25px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.subfooter .subtitle {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 25px;
+  line-height: 40px;
+  /* or 167% */
+  color: #ffffff;
+}
+.subfooter .footer_sp1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #0e8684;
+}
+.subfooter .footer_btn {
+  /* Create my plan! */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+  border: none;
+  margin-left: 510px;
+  width: 217px;
+  height: 56px;
+  background: #66d2cf;
+  border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+  .subfooter {
+    width: 100%;
+    height: 338px;
+    margin: auto;
+  }
+}
+.footer3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c343e;
+  height: 120px;
+}
+.footer3 .footer_list3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 120px;
+}
+.footer3 .footer_glav_box3 {
+  display: flex;
+  gap: 120px;
+}
+.footer3 .footer_last_icon3 {
+  width: 120px;
+  height: 24px;
+}
+.footer3 .navbar_link3 {
+  /* Create your plan */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.footer3 .footer_link3:hover {
+  transition: all 0.3 linear;
+  color: white;
+}
+.footer3 .footer_img3 {
+  width: 236px;
+  height: 26px;
+}
+
+@media (max-width: 480px) {
+  .footer3 {
+    width: 100%;
+    height: 346px;
+  }
+  .footer3 .footer_img3 {
+    position: absolute;
+    margin-top: 90px;
+    width: 217.85px;
+    height: 24px;
+    margin-left: 100px;
+  }
+  .footer3 .footer_list3 {
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 135px;
+  }
+  .footer3 .footer_glav_box3 {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+.main_glav_right_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.main_wrapper {
+  width: 1111px;
+  margin: 536px auto;
+}
+
+.main_img_box {
+  width: 1111px;
+  height: 196px;
+  background-image: url("./img/main.bck.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_box {
+  display: flex;
+}
+
+.main_blok1 {
+  padding-right: 50px;
+}
+
+.main_kopi {
+  width: 255px;
+  height: 193px;
+  margin-top: 210px;
+}
+
+.main_blok1_title {
+  width: 255px;
+  height: 32px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333d4b;
+}
+
+.main_blok1_text {
+  width: 255px;
+  height: 78px;
+  font-family: "Barlow";
+  font-style: normal;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #333d4b;
+}/*# sourceMappingURL=main.css.map */

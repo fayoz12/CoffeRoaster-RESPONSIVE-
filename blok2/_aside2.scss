@@ -1,0 +1,85 @@
+.aside {
+  width: 1045px;
+  height: 366px;
+  margin: auto;
+  .asd_title {
+    /* Our headquarters */
+
+    font-family: "Fraunces ";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888f;
+  }
+
+  .asd_subtitle {
+    /* United Kingdom */
+
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+    color: #333d4b;
+  }
+
+  .asd_text {
+    /* 1528 Eglinton Avenue */
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333d4b;
+  }
+
+  .asd_blok {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 480px) {
+  .aside {
+    width: 100%;
+    height: 1044px;
+
+    .asd_blok {
+      flex-direction: column;
+    }
+
+    .asd_left {
+      margin-left: 120px;
+      margin: auto;
+    }
+    .asd_box {
+      margin-top: 50px;
+      margin-right: 120px;
+    }
+    .asd_box1 {
+      margin-top: 50px;
+      margin-right: 100px;
+    }
+
+    .asd_text {
+      padding: 5px;
+    }
+    .asd_subtitle {
+      padding: 10px;
+    }
+    .asd_title {
+      margin-left: 120px;
+    }
+  }
+}
+ 

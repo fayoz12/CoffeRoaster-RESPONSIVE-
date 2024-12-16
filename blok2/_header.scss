@@ -1,0 +1,96 @@
+.header {
+  width: 1280px;
+  height: 474px;
+  margin-top: 150px;
+
+  background-color: #293039;
+
+  .header_title {
+    /* Uncompromising quali */
+
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #fefcf7;
+  }
+
+  .header_text {
+    /* Although we work wit */
+
+    width: 540px;
+    height: 130px;
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  .header_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+    margin-top: 900px;
+    height: 509px;
+
+    background-color: #293039;
+
+    .header_box {
+      flex-direction: column;
+    }
+
+    .header_img {
+      display: none;
+    }
+
+    .header_title {
+      /* Uncompromising quali */
+
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      padding: 25px;
+      line-height: 28px;
+      /* or 100% */
+      text-align: center;
+
+      color: #fefcf7;
+    }
+    .header_text {
+      /* Although we work wit */
+      width: 279px;
+      font-family: "Barlow";
+      padding: 25px;
+      margin: auto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+}

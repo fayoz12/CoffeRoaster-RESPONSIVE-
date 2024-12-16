@@ -1,0 +1,125 @@
+.main {
+  width: 1200px;
+
+  margin: auto;
+
+  .main_title {
+    font-family: "Fraunces";
+    margin-left: 120px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #83888f;
+  }
+
+  .card {
+    width: 228px;
+    height: 250px;
+
+    background: #f4f1eb;
+    border-radius: 8px;
+  }
+
+  .card2 {
+    /* Rectangle */
+
+    width: 228px;
+    height: 250px;
+
+    background: #0e8784;
+    border-radius: 8px;
+  }
+
+  .glav_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 120px auto;
+  }
+
+  .card_title {
+    /* Single Origin */
+
+    font-family: "Fraunces";
+    font-style: normal;
+    margin-left: 60px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #333d4b;
+  }
+
+  .card_text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    padding: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #333d4b;
+  }
+
+  .card_title2 {
+    /* Filter */
+
+    font-family: "Fraunces ";
+    font-style: normal;
+    margin-left: 60px;
+
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #ffffff;
+  }
+
+  .card3 {
+    width: 228px;
+    height: 250px;
+
+    background: #f4f1eb;
+    border-radius: 8px;
+  }
+  .card3:active {
+    background-color: #fdd6ba;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+
+    .main_card {
+      width: 328px;
+      height: 452px;
+    }
+
+    .glav_card {
+      flex-direction: column;
+      gap: 25px;
+    }
+    .main_title {
+      width: 240px;
+      height: 56px;
+      gap: 0px;
+      opacity: 0px;
+
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 28px;
+      /* or 117% */
+
+      color: #83888f;
+    }
+  }
+}
